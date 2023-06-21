@@ -1,0 +1,99 @@
+.body{
+    background-image: url(img/pizarra.jpg);
+
+}
+.cabecera{
+    background-color:#BFB379 ;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+.frase{
+    background-color: #D97C0B;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.frasetexto{
+    font-family: 'Dancing Script', cursive;
+    color: #F7F3EF;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.50);
+    padding-left: 1rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.contenedor{
+    width: 500px;
+    background-color: #D97C0B;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.contenedor h1{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.contenedor_input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+p input{
+    height: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+input {
+    height: 3rem;
+    font-family: 'Montserrat';
+}
+
+.video_caja{
+    background-color: #D97C0B;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.video{
+    width: 560px;
+    margin: 0rem auto;
+}
+
+.footer{
+position: absolute;
+ }
